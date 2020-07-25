@@ -1,0 +1,52 @@
+@font-face {
+  src: url(marguerite.ttf);
+  font-family: mar;
+}
+body{
+  background: url(logotran.png)no-repeat center center fixed;
+   background-size: cover;
+}
+hr { border-color:red;
+width: 100%;
+
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #282828;
+}
+
+h1{
+    position: absolute;
+    padding: 3px;
+    float: right;
+    margin-left: 2%;
+    margin-top: 5px;
+    font-family: 'mar', cursive;
+    color: red;
+}
+
+ul{
+    width: auto;
+    float: inherit;
+    margin-top: -5px;
+}
+
+li{
+    display: inline-block;
+    padding: 15px 30px;
+    position: relative;
+    left: 100px
+}
+
+a{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'mar';
+    font-size: 1.2vw;
+}
+
+a:hover{
+    color: red;
+}
